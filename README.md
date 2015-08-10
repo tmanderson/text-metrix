@@ -35,11 +35,13 @@ Debug the content within an `HTMLElement`.
 Contains the measurements of some character or string.
 
 The following properties are available on a TextMetrix instance:
-  
-  | `height` | ascent to baseline          |
-  | `width`  | bounding width              |
-  | `descent`| from baseline to descent    |
-  | `left`   | from left of character box  |
-  | `right`  | from right of character box |
-  | `top`    | from top of character box   |
-  | `bottom` | from bottom of character box|
+
+| Property | Description                 |
+|----------|-----------------------------|
+| `height` | ascent to baseline          |
+| `width`  | bounding width              |
+| `descent`| from baseline to descent    |
+| `left`   | from left of character box  |
+| `right`  | from right of character box |
+| `top`    | from top of character box   |
+| `bottom` | from bottom of character box|
