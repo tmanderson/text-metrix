@@ -9,26 +9,19 @@ measurement aware layouts.
 
 ## API
 
-### `TextMetrix.measure`
+### `TextMetrix.measure(text)`
 Returns a `TextMetrix` instance.
 
 ```JavaScript
   var metrix = TextMetrix.measure('A');
-  var metrix = TextMetrix.measure(document.querySelector('p'));
 ```
 
-### `TextMetrix.debugText`
-Debug a string.
+### `TextMetrix.measureElement(HTMLElement, [debug])`
+Returns a `TextMetrix` instance. If `debug` is provided, bounding box is
+rendered behind element contents.
 
 ```JavaScript
-  TextMetrix.debugText('Hello World!');
-```
-
-### `TextMetrix.debugElement`
-Debug the content within an `HTMLElement`.
-
-```JavaScript
-  TextMetrix.debugElement(document.querySelector('p'));
+  var metrix = TextMetrix.measureElement(document.querySelector('p'));
 ```
 
 ## TextMetrix
